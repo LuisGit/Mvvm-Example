@@ -17,6 +17,7 @@
 		78F3AD0325B21BBD00ACC8AB /* AppCoodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD0225B21BBD00ACC8AB /* AppCoodinator.swift */; };
 		78F3AD0925B22DA200ACC8AB /* EventListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD0825B22DA200ACC8AB /* EventListCoordinator.swift */; };
 		78F3AD1225B22F5900ACC8AB /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD1125B22F5900ACC8AB /* EventListViewController.swift */; };
+		78F3AD1E25B2394B00ACC8AB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD1D25B2394B00ACC8AB /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		78F3AD0225B21BBD00ACC8AB /* AppCoodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoodinator.swift; sourceTree = "<group>"; };
 		78F3AD0825B22DA200ACC8AB /* EventListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCoordinator.swift; sourceTree = "<group>"; };
 		78F3AD1125B22F5900ACC8AB /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		78F3AD1D25B2394B00ACC8AB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		78F3AD1625B230AC00ACC8AB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				78F3AD1D25B2394B00ACC8AB /* UIColor+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78F3AD1225B22F5900ACC8AB /* EventListViewController.swift in Sources */,
+				78F3AD1E25B2394B00ACC8AB /* UIColor+Extensions.swift in Sources */,
 				78F3AD0325B21BBD00ACC8AB /* AppCoodinator.swift in Sources */,
 				78F3ACD025B1FDCA00ACC8AB /* AppDelegate.swift in Sources */,
 				78F3ACD225B1FDCA00ACC8AB /* SceneDelegate.swift in Sources */,
