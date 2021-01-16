@@ -24,6 +24,7 @@
 		78F3AD3D25B2830400ACC8AB /* AddEventCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD3C25B2830400ACC8AB /* AddEventCoordinator.swift */; };
 		78F3AD4225B28D2500ACC8AB /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD4125B28D2500ACC8AB /* AddEventViewController.swift */; };
 		78F3AD4725B28DDE00ACC8AB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD4625B28DDE00ACC8AB /* UIViewController+Extension.swift */; };
+		78F3AD4D25B2A13700ACC8AB /* AddEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD4C25B2A13700ACC8AB /* AddEventViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		78F3AD3C25B2830400ACC8AB /* AddEventCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventCoordinator.swift; sourceTree = "<group>"; };
 		78F3AD4125B28D2500ACC8AB /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
 		78F3AD4625B28DDE00ACC8AB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		78F3AD4C25B2A13700ACC8AB /* AddEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		78F3ACCE25B1FDCA00ACC8AB /* LuisMvvmExample */ = {
 			isa = PBXGroup;
 			children = (
+				78F3AD4B25B2A11000ACC8AB /* ViewModel */,
 				78F3AD2E25B242E200ACC8AB /* assets */,
 				78F3AD2225B23CD100ACC8AB /* coreData */,
 				78F3AD1625B230AC00ACC8AB /* Extensions */,
@@ -128,7 +131,6 @@
 				78F3ACD825B1FDCC00ACC8AB /* Assets.xcassets */,
 				78F3ACDA25B1FDCC00ACC8AB /* LaunchScreen.storyboard */,
 				78F3ACDD25B1FDCC00ACC8AB /* Info.plist */,
-				78F3AD3725B27F4800ACC8AB /* EventListViewModel.swift */,
 			);
 			path = LuisMvvmExample;
 			sourceTree = "<group>";
@@ -193,6 +195,15 @@
 			children = (
 			);
 			path = assets;
+			sourceTree = "<group>";
+		};
+		78F3AD4B25B2A11000ACC8AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78F3AD3725B27F4800ACC8AB /* EventListViewModel.swift */,
+				78F3AD4C25B2A13700ACC8AB /* AddEventViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +339,7 @@
 				78F3AD4725B28DDE00ACC8AB /* UIViewController+Extension.swift in Sources */,
 				78F3AD1225B22F5900ACC8AB /* EventListViewController.swift in Sources */,
 				78F3AD1E25B2394B00ACC8AB /* UIColor+Extensions.swift in Sources */,
+				78F3AD4D25B2A13700ACC8AB /* AddEventViewModel.swift in Sources */,
 				78F3AD0325B21BBD00ACC8AB /* AppCoodinator.swift in Sources */,
 				78F3ACD025B1FDCA00ACC8AB /* AppDelegate.swift in Sources */,
 				78F3ACD225B1FDCA00ACC8AB /* SceneDelegate.swift in Sources */,
