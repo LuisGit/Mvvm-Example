@@ -6,8 +6,7 @@
 //
 
 import UIKit
-
-protocol Coordinator  {
+protocol Coordinator: AnyObject {
     var childCoordinators: [Coordinator] { get }
     func start()
 }
