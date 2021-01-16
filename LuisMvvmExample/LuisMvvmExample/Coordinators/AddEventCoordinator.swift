@@ -19,10 +19,9 @@ final class AddEventCoordinator : Coordinator {
     func start() {
         //Steps here:
         //create view controller
-        let viewController = UIViewController()
-        viewController.view.backgroundColor = .primary
+        let addEventViewController: AddEventViewController = .instantiate()
         //create view model
         //present the view controller using the navigation controller
-        navigationController.present(viewController, animated: true, completion: nil)
+        navigationController.present(addEventViewController, animated: true, completion: nil)
     }
 }
