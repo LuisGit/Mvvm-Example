@@ -21,6 +21,7 @@
 		78F3AD2525B23CFA00ACC8AB /* EventsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD2325B23CFA00ACC8AB /* EventsApp.xcdatamodeld */; };
 		78F3AD2A25B23EB500ACC8AB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD2925B23EB500ACC8AB /* CoreDataManager.swift */; };
 		78F3AD3825B27F4800ACC8AB /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD3725B27F4800ACC8AB /* EventListViewModel.swift */; };
+		78F3AD3D25B2830400ACC8AB /* AddEventCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F3AD3C25B2830400ACC8AB /* AddEventCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		78F3AD2425B23CFA00ACC8AB /* EventsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventsApp.xcdatamodel; sourceTree = "<group>"; };
 		78F3AD2925B23EB500ACC8AB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		78F3AD3725B27F4800ACC8AB /* EventListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
+		78F3AD3C25B2830400ACC8AB /* AddEventCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				78F3AD0225B21BBD00ACC8AB /* AppCoodinator.swift */,
 				78F3AD0825B22DA200ACC8AB /* EventListCoordinator.swift */,
+				78F3AD3C25B2830400ACC8AB /* AddEventCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				78F3AD0325B21BBD00ACC8AB /* AppCoodinator.swift in Sources */,
 				78F3ACD025B1FDCA00ACC8AB /* AppDelegate.swift in Sources */,
 				78F3ACD225B1FDCA00ACC8AB /* SceneDelegate.swift in Sources */,
+				78F3AD3D25B2830400ACC8AB /* AddEventCoordinator.swift in Sources */,
 				78F3AD0925B22DA200ACC8AB /* EventListCoordinator.swift in Sources */,
 				78F3AD3825B27F4800ACC8AB /* EventListViewModel.swift in Sources */,
 				78F3AD2A25B23EB500ACC8AB /* CoreDataManager.swift in Sources */,
